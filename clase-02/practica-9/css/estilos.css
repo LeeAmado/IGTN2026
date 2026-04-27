@@ -1,0 +1,36 @@
+h1 {
+    color: whitesmoke;
+    background: blue;
+    font-family: "Miranda+Sans", sans-serif;
+    text-align: center;
+}
+
+p {
+    color: green;
+    background: orange;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    background: lightpink;
+}
+
+#rojo {
+    color: mediumvioletred;
+    background: black;
+}
+
+#negro {
+    color: whitesmoke;
+    background: black;
+    text-align: right;
+}
+
+.variado {
+    color: yellow;
+} 
+
+.puedeser {
+    background: green;
+}

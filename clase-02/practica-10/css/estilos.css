@@ -1,0 +1,57 @@
+/* USO DE IA */
+/* Fondo general */
+body {
+    background-color: black;
+}
+
+/* Título */
+h1 {
+    color: black;
+    background-color: yellow;
+    font-family: Arial;
+    text-align: left;
+    font-size: 32px;
+}
+
+/* Párrafos */
+p {
+    color: white;
+    background-color: darkblue;
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/* Lista */
+ul {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-family: Arial;
+}
+
+/* ID rojo */
+#rojo {
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+/* ID negro */
+#negro {
+    color: black;
+    background-color: lightgray;
+    text-align: left;
+}
+
+/* Clase variado */
+.variado {
+    color: orange;
+    background-color: purple;
+}
+
+/* Clase puedeser */
+.puedeser {
+    background-color: lightgreen;
+    color: black;
+}

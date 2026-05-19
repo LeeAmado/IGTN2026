@@ -1,0 +1,80 @@
+body {
+ 	background-color: black;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	margin: 0;
+    background-position: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+ }
+
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	background: rgba(100, 0, 0, 0.80);
+	padding: 1em;
+	margin: 20px auto;
+	color: white;
+	border-radius: 10px;
+}
+
+h1 , h2, h3 {
+	color: DarkBlue; 
+	background-color: orangered;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 5px;
+}
+
+nav a {
+	background: lightyellow;
+	padding: 0.52em;
+	line-height: 2em;
+	border-radius: 10px;
+	border: 2px solid orangered;
+	text-decoration: none; 
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: darkblue;
+}
+
+nav a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+a:active {
+	color: yellow;
+}
+
+p {
+	line-height: 1.6; 
+	color: darkblue;
+	background-color: lightyellow;
+	border-radius: 5px;
+	border: 2px solid orangered;
+	padding: 0.5em;
+}
+
+footer {
+	margin: 1em;
+	text-align: center;
+	font-size: 1em;
+}

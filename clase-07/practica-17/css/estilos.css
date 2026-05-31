@@ -1,0 +1,17 @@
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: lightyellow;
+	border-radius: 0.5em;
+}
+
+h1 {
+	background: black;
+	color: cyan;
+}
+
+p {
+	color:  magenta;
+}

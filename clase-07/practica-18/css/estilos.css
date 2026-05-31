@@ -1,0 +1,26 @@
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: yellow;
+	border-radius: 0.5em;
+}
+
+h1 {
+	background-color: magenta;
+	text-align: center;
+}
+
+h2, h3 {
+	background-color: cyan;
+}
+
+p {
+	background-color: darkred;
+}
+
+footer {
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,45 @@
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: lightblue;
+	border-radius: 0.5em;
+}
+
+h1 {
+	background-color: blue;
+	text-align: center;
+}
+
+h2 {
+	background-color: darkblue;
+}
+
+.lista {
+	background-color: black;
+	color: cyan;
+}
+
+.parraf {
+	background-color: white;
+	color: yellow;
+}
+
+.segpar {
+	background-color: yellow;
+	color: white;
+}
+
+.foot {
+	text-align: center;
+	background-color: greenyellow;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0.5em auto;
+	border-radius: 0.5em;
+}

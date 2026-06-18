@@ -1,0 +1,42 @@
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: lightblue;
+	border-radius: 0.5em;
+}
+
+h1 {
+	color: yellow;
+	background-color: blue;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	background-color: darkred;
+}
+
+.subtitulo {
+	background-color: black;
+}
+
+.lista {
+	background-color: white;
+}
+
+.parraf {
+	color: red;
+}
+
+.despedida {
+	background-color: green;
+	color: yellow;
+}
+
+footer {
+	text-align: center;
+	background-color: yellow;
+	color: blue;
+}

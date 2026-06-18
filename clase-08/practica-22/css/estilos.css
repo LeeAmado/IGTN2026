@@ -1,0 +1,25 @@
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: orangered;
+	border-radius: 0.5em;
+}
+
+footer, h1 {
+	text-align: center;
+	background-color: yellow;
+	color: indianred;
+}
+
+h2 {
+	color: white;
+	background-color: darkred;
+}
+
+form {
+	background: darkred;
+	padding: 1rem;
+	line-height: 2rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 22</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">	
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Calcular Descuentos</h1>
+		</header>
+		<main>
+			<section>
+				<h2>Formulario para descuentos</h2>
+				<p>A continuación solicitaremos los valores de precio y porcentaje de descuento para calcular el <strong>precio final.</strong></p>
+				<form>
+					<!-- Campo donde el usuario ingresa el precio original -->
+					<label>Precio original:</label>
+					<input type="number" id="precio">
+
+					<!-- Campo donde el usuario ingresa el porcentaje de descuento -->
+					<label>Porcentaje de descuento:</label>
+					<input type="number" id="descuento">
+
+					<!-- Botón que ejecuta el cálculo del descuento -->
+					<button type="button" id="calcular">Calcular</button>
+
+					<!-- Resultado mostrado en un párrafo (opción alternativa) -->
+					<!-- <p id="resultado"></p> -->
+
+					<!-- Casilla inhabilitada donde se muestra el precio final -->
+					<input type="text" id="resultado" placeholder="Aquí verá el precio" disabled> <!-- PARA MOSTRAR EN CASILLA INHABILITADA -->
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p><em>¡Gracias por leer!<br>Espero la información les haya servido. Nos vemos luego.</em></p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

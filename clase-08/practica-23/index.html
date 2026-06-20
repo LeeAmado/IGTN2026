@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 23</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">	
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Cantidad de pupitres</h1>
+		</header>
+		<main>
+			<section>
+				<h2>Formulario para realizar los cálculos</h2>
+				<p>Completar cuántos pupitres hay en cada una de las aulas de la sede.</p>
+				<p><strong>Máximo de pupitres por aula: 80</strong></p>
+
+				<!-- Formulario para ingresar los datos -->
+				<form action="#" method="get">
+
+					<fieldset>
+						<legend>Aula 001</legend>
+						<label for="cero">Cantidad: *</label>
+						<input type="number" name="cero" id="cero" required>
+					</fieldset>
+
+					<fieldset>
+						<legend>Aula 101</legend>
+						<label for="uno">Cantidad: *</label>
+						<input type="number" name="uno" id="uno" required>
+					</fieldset>
+
+					<fieldset>
+						<legend>Aula 201</legend>
+						<label for="dos">Cantidad: *</label>
+						<input type="number" name="dos" id="dos" required>
+					</fieldset>
+
+					<fieldset>
+						<legend>Aula 301</legend>
+						<label for="tres">Cantidad: *</label>
+						<input type="number" name="tres" id="tres" required>
+					</fieldset>
+
+					<fieldset>
+						<legend>Aula 501</legend>
+						<label for="cinco">Cantidad: *</label>
+						<input type="number" name="cinco" id="cinco" required>
+					</fieldset>
+
+					<!-- Botón que ejecuta los cálculos -->
+					<button type="button" id="calcular">
+						Calcular
+					</button>
+
+					<!-- Lugares donde se mostrarán los resultados -->
+					<p class="resultadoMayor"></p>
+					<p class="resultadoMenor"></p>
+					<p class="resultadoCompra"></p>
+
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p><em>¡Gracias por leer!<br>Espero la información les haya servido. Nos vemos luego.</em></p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

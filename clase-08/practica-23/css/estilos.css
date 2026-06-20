@@ -1,0 +1,52 @@
+body {
+	background-color: greenyellow;
+}
+
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: cyan;
+	border-radius: 0.5em;
+}
+
+footer, h1 {
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+h2 {
+	color: white;
+	background-color: blue;
+}
+
+form {
+	background: greenyellow;
+	border: 0.4em solid blue;
+	padding: 1em;
+}
+
+fieldset {
+	background: cyan;
+	border: 0.2em solid blue;
+	margin: 1em 0;
+}
+
+legend {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: blue;
+	padding: 0.2em;
+}
+
+label {
+	color: blue;
+}
+button {
+	background: blue;
+	color: white;
+	padding: 0.5em;
+}

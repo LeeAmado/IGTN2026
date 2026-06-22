@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background-color: grey;
+}
+
+#contenedor {
+	width: 90%;
+	max-width: 960px;
+	margin: 20px auto;
+	padding: 1em;
+	background: white;
+	border-radius: 0.5em;
+}
+
+footer, h1 {
+	background-color: black;
+	color: white;
+}
+
+h2 {
+	background-color: lightgrey;
+}
+
+button {
+	background: red;
+	color: white;
+	padding: 0.5em;
+}
+
+.imagenDado{ /* centrar la imagen */
+	display: block;
+	margin: auto;
+}

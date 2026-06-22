@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 24</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">	
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Juego del dado</h1>
+		</header>
+		<main>
+			<section>
+				<h2>Aplicamos números al azar</h2>
+				<p>El número será entre 1 y 6, mostrará una imagen según el resultado, emulalando un dado.</p>
+
+					<!-- Botón para lanzar el dado -->
+					<button type="button" id="jugar">
+						Jugar
+					</button>
+
+					<!-- Acá mostraremos el mensaje -->
+					<p class="resultadoDado"></p>
+
+					<!-- Imagen del dado. Empieza vacía con el src"" y se oculta con el style (se hace visible en el js) -->
+					<img class="imagenDado" src="" alt="Dado" style="display:none;" width="200" height="200">
+
+			</section>
+		</main>
+		<footer>
+			<p><em>¡Gracias por jugar!<br>No a las apuestas, cuidado con la ludopatía.</em></p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

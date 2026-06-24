@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 25</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Recomendaciones de series</h1>
+		</header>
+		<main>
+			<h2>¿Cómo funciona?</h2>
+			<p>¡Según tu edad y el género que elijas <strong>te recomendaré</strong> algunas opciones que seguro te gustarán!</p>
+			<section>
+            <h3>Por favor, complete el siguiente formulario</h3>
+            <form action="#" method="get">
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre: *</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="apellido">Apellido: *</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="1" max="100" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Series</legend>
+                    <label for="serie">¿Qué género prefieres?</label>
+                    <select name="serie" id="serie">
+                        <option value="comedia" selected>Comedia</option>
+                        <option value="terror">Terror</option>
+                        <option value="documental">Documental</option>
+                        <option value="accion">Acción</option>
+                        <option value="romance">Romance</option>
+                        <option value="anime">Anime/Animada</option>
+                    </select>
+                </fieldset>
+                <button type="button" id="listo">Listo</button>
+                <button type="reset">Borrar</button>
+
+
+                <!-- Lugar donde se mostrará la recomendación -->
+                    <p class="recomendacionSerie"></p>
+            </form>
+        	</section>
+
+		</main>
+		<footer>
+			<p>Gracias por participar en la sugerencia, espero te guste la recomendación.</p>
+		</footer>
+	</div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

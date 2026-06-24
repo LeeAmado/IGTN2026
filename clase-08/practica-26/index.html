@@ -1,0 +1,137 @@
+<!-- OPCIÓN 1 CON IA --------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Práctica 26</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+	<header>
+		<h1>Presupuesto para obra multimedia</h1>
+		<p>Si el total supera los $500.000 se aplica un descuento del 10%</p>
+	</header>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Proyectores: $45.000</legend>
+				<label for="proyectores">Cantidad:</label>
+				<input type="number" name="proyectores" id="proyectores">
+			</fieldset>
+
+			<fieldset>
+				<legend>Computadoras: $50.000</legend>
+				<label for="computadoras">Cantidad:</label>
+				<input type="number" name="computadoras" id="computadoras">
+			</fieldset>
+
+			<fieldset>
+				<legend>Pantallas: $35.000</legend>
+				<label for="pantallas">Cantidad:</label>
+				<input type="number" name="pantallas" id="pantallas">
+			</fieldset>
+
+			<fieldset>
+				<legend>Alquiler</legend>
+				<label for="alquiler">Cantidad de días:</label>
+				<input type="number" name="alquiler" id="dias">
+			</fieldset>
+
+			<button type="button" id="calcular">
+				Calcular presupuesto
+			</button>
+
+			<p id="resultado"></p>
+
+		</form>
+	</main>
+
+	<footer>
+
+		<h2>Alquiler de Equipos</h2>
+
+	</footer>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
+
+-->
+
+<!-- OPCIÓN 2 CON IA -------------------------------------------------------------------- -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Práctica 26</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<div id="contenedor">
+
+	<header>
+		<h1>Presupuesto para obra multimedia</h1>
+		<p>Si el total supera los $500.000 se aplica un descuento del 10%</p>
+	</header>
+
+	<main>
+
+		<fieldset>
+				<legend>Proyectores: $45.000</legend>
+				<label for="proyectores">Cantidad:</label>
+				<input type="number" name="proyectores" id="proyectores">
+			</fieldset>
+
+			<!-- ¿Para qué sirve for en el <label>? Relaciona el texto del label con el campo.
+			Gracias a eso, si el usuario hace clic sobre "Nombre:", el cursor se posiciona automáticamente en el input.
+			También mejora la accesibilidad para lectores de pantalla.-->
+
+			<fieldset>
+				<legend>Computadoras: $50.000</legend>
+				<label for="computadoras">Cantidad:</label>
+				<input type="number" name="computadoras" id="computadoras">
+			</fieldset>
+
+			<!-- ¿Para qué sirve name en el <input>?
+			Es importante cuando se envían datos a un servidor mediante un formulario
+			
+			Por ejemplo, al enviar un formulario: nombre=Juan edad=25
+			El servidor identifica cada dato gracias al atributo name.-->
+
+			<fieldset>
+				<legend>Pantallas: $35.000</legend>
+				<label for="pantallas">Cantidad:</label>
+				<input type="number" name="pantallas" id="pantallas">
+			</fieldset>
+
+			<fieldset>
+				<legend>Alquiler</legend>
+				<label for="alquiler">Cantidad de días:</label>
+				<input type="number" name="alquiler" id="dias">
+			</fieldset>
+
+			<button type="button" id="calcular">
+				Calcular presupuesto
+			</button>
+
+			<p id="resultado"></p>
+
+			</form>
+	</main>
+
+	<footer>
+
+		<h2>Alquiler de Equipos</h2>
+
+	</footer>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>

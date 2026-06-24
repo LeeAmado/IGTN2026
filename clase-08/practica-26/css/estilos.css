@@ -1,0 +1,107 @@
+/* Reset básico */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #243b6b;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+/* Contenedor principal */
+#contenedor{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/* Encabezado y pie */
+header,
+footer{
+	background: #5b7cfa;
+	padding: 1em;
+	text-align: center;
+}
+
+/* Contenido principal */
+main{
+	padding: 2em;
+	background: #405aa8;
+	color: white;
+}
+
+/* Títulos */
+h1{
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+/* Formulario */
+form{
+	background: #4b3f8f;
+	border: 0.4em solid #7ea6ff;
+	padding: 1em;
+}
+
+/* Agrupaciones */
+fieldset{
+	background: #405aa8;
+	border: 0.2em solid #7ea6ff;
+	margin: 1em 0;
+}
+
+/* Títulos de fieldset */
+legend{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #5b7cfa;
+	padding: 0.2em 0.5em;
+}
+
+/* Etiquetas */
+label{
+	color: white;
+	display: block;
+	margin-top: 1em;
+}
+
+/* Campos */
+input{
+	width: 100%;
+	padding: 0.5em;
+	margin-top: 0.3em;
+	border: none;
+	border-radius: 4px;
+}
+
+/* Botón */
+button{
+	background: #5b7cfa;
+	color: white;
+	padding: 0.7em 1em;
+	border: none;
+	margin-top: 1em;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+button:hover{
+	background: #7ea6ff;
+}
+
+/* Resultado */
+#resultado{
+	margin-top: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+}

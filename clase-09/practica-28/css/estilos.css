@@ -1,0 +1,118 @@
+*{
+	box-sizing:border-box;
+}
+
+/* ===========================
+   Página
+=========================== */
+
+body{
+	margin:0;
+	padding:0;
+	background:#fff8e8;
+	font-family:Arial, sans-serif;
+	color:#333;
+}
+
+/* ===========================
+   Contenedor
+=========================== */
+
+#contenedor{
+	width:100%;
+	max-width:950px;
+	margin:40px auto;
+}
+
+/* ===========================
+   Encabezado
+=========================== */
+
+header{
+	background:#8b0000;
+	color:white;
+	padding:25px;
+	text-align:center;
+	border-bottom:8px solid #f4b400;
+}
+
+header p{
+	margin-top:10px;
+	font-style:italic;
+}
+
+/* ===========================
+   Contenido
+=========================== */
+
+main{
+	background:white;
+	padding:40px;
+}
+
+/* ===========================
+   Sección
+=========================== */
+
+section{
+	background:#fffdf5;
+	border:3px dashed #f4b400;
+	padding:25px;
+	box-shadow:8px 8px 15px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   Títulos
+=========================== */
+
+h1{
+	margin:0;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+
+h2{
+	margin:0;
+}
+
+h3{
+	margin-top:0;
+	background:#f4b400;
+	color:#8b0000;
+	padding:12px;
+	text-align:center;
+	border-radius:5px;
+	text-transform:uppercase;
+}
+
+/* ===========================
+   Párrafos
+=========================== */
+
+section p{
+	line-height:1.6;
+}
+
+/* ===========================
+   Resultado
+=========================== */
+
+.resultado{
+	margin-top:30px;
+	padding:20px;
+	background:#fff3cd;
+	border:2px solid #f4b400;
+	border-radius:8px;
+	font-weight:bold;
+}
+
+/* ===========================
+   Pie
+=========================== */
+
+footer{
+	background:#333;
+	color:white;
+	text-align:center;
+	padding:18px;
+}
